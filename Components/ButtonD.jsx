@@ -10,7 +10,7 @@ const DecreaseButton = styled.button`
 export default function ButtonD(props) {
     
     const Decrease = () => {
-        props.fonction1;
+        props.fonction1();
     }
 
     return (
