@@ -4,7 +4,7 @@ import styled from 'styled-components'
 export default function ButtonI (props) {
 
     const Increase = () => {
-        props.fonction2;
+        props.fonction2();
     }
 
     const IncreaseButton = styled.button`
